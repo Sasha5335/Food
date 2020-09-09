@@ -1,4 +1,3 @@
-const tabs = require("./tabs");
 function cards() {
 	class MenuCard {
 		constructor(src, alt, title, descr, price, parentSelector, ...classes) {
@@ -78,4 +77,4 @@ function cards() {
 	// };
 }
 
-module.exports = tabs;
+export default cards;
